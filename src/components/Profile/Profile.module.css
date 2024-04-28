@@ -1,4 +1,39 @@
+.container {
+    padding: 0 15px;
+    border-radius: 5%;
+    border-color: black;
+    border: 2px solid ;
+    width: 100%;
+}
+
 .img {
  border-radius: 50%;
- background-color: black;  
-};
+ background-color: rgb(53, 48, 48);  
+
+}
+
+.name {
+    font-size: 40px;
+text-align: center;
+
+}
+
+.tag {
+    font-size: 20px;
+    text-align: center;
+}
+
+.location {
+    font-size: 20px;
+    text-align: center;
+}
+
+.list {
+list-style: none;
+display: flex;
+
+}
+
+.item {
+
+}

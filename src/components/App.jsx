@@ -1,10 +1,16 @@
+import userData from "../userData.json";
+// import friends from "../friends.json";
+import Profile from "./Profile/Profile";
 
 
 
-function App() {
-  
-  return  <>App</>
-  
-}
+export default function App() {
+  return (
+    <>
+       <Profile data={userData} />
+      {/* <FriendList data={friends} /> */}
+    </>
+  );
+};
 
-export default App
+ 

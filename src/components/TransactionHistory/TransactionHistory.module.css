@@ -1,0 +1,30 @@
+.table {
+    border: 1px solid black;
+    width: 760px;
+}
+
+.tableHead {
+    color: white;
+    width: calc(100% / 3);
+    background-color: rgba(0, 0, 0, 0.825);
+}
+
+.headText {
+    border: 1px solid black;
+  }
+  .headItem {
+    border: 1px solid black;
+  }
+
+  .rowItem {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 4px 0;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .row:nth-child(even) {
+    background-color: gray;
+  }

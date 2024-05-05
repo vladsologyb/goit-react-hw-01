@@ -1,7 +1,7 @@
 import css from "./Profile.module.css";
 export default function Profile ({ data: {username, tag, location, avatar, stats:{followers, views, likes} }}) {
     return (
-        <>
+        
         <div className={css.container}>
         <div>
         <img className={css.img} src={avatar} alt="" width={200} height={200} />
@@ -24,7 +24,7 @@ export default function Profile ({ data: {username, tag, location, avatar, stats
      </li>
    </ul>  
    </div>
-   </>
+  
     ); 
 
 };
